@@ -1,0 +1,219 @@
+{
+    "فارسی": {
+        "فلسفه و سیاست": {
+            "voices": {
+                "خامنه ای یا پهلوی؟": {
+                    "id": "AwACAgQAAxkBAAMIanZydi3b5B4oWTuthxC8ybs9SDkAAjocAALoA2BTq2wDevo8SaE9BA",
+                    "type": "voice"
+                },
+                "توضیح مختصر فرگشت": {
+                    "id": "AwACAgQAAxkBAAMQanZ3l_WXqH04xInW3XexMdizNEEAAsceAAL7PHFT1cqLHcPv58I9BA",
+                    "type": "voice"
+                },
+                "فرگشت حقیقت محض است؟": {
+                    "id": "AwACAgQAAxkBAAMRanZ3qr8xbfFXc1HQftUhLTQsOVUAAskeAAL7PHFTZsXHNNZK2xE9BA",
+                    "type": "voice"
+                },
+                "من و تو هم دیکتاتوریم": {
+                    "id": "AwACAgQAAxkBAAMSanZ3vpgP-nGYMwHS50DCnjyaAAEsAAL-HQACIJuIU3P08lcOU3lsPQQ",
+                    "type": "voice"
+                },
+                "بهترین رویکرد در سنین جوانی چیست؟": {
+                    "id": "AwACAgQAAxkBAAM4anby7sYAAU04ARkKtzXvguDGSU-4AAIIHQAC5OSZUxpwHmfJ0sj1PQQ",
+                    "type": "voice"
+                },
+                "نگاهی به جنگ از نظر فرگشت": {
+                    "id": "AwACAgQAAxkBAAM5anby_RjWdeAaC9_bLeJLiDumRvEAAnccAALzcbBTQKq8uvgudRE9BA",
+                    "type": "voice"
+                },
+                "دین حاصل فرگشت است": {
+                    "id": "AwACAgQAAxkBAAM6anbzEhVaf_0KfvHzXMvF21sQe9kAAtYdAALz4RlQuqeFqOwt8IY9BA",
+                    "type": "voice"
+                },
+                "سیاست کثیف نیست!": {
+                    "id": "AwACAgQAAxkBAAM8anbzPz3P0AMRJmpk2fxsA4vP-DoAAgQdAAIK90lQ7_HaYoxpg0M9BA",
+                    "type": "voice"
+                },
+                "وجود خدا و فلسفه موجودیت چیست؟": {
+                    "id": "AwACAgQAAxkBAAM9anbzYGIyLkH6gFvr1sSv2Th3cWIAAoseAAL-N-hTb9uNUFPJS8A9BA",
+                    "type": "voice"
+                },
+                "توافق ایران و آمریکا و دستاورد های آن": {
+                    "id": "AwACAgQAAxkBAAM-anbzb3ju2aiOQVdvkyinvOzTgowAAs4dAAJe0oBRbVKRvgUG-vI9BA",
+                    "type": "voice"
+                },
+                "صحبتی در مورد پارتنر و شریک زندگی و روابط عاطفی": {
+                    "id": "AwACAgQAAxkBAAPjancISCrwg8KDDyQhgumpv_3dxAADxR8AAoHt0FHNEtf_J49Zlj0E",
+                    "type": "voice"
+                },
+                "تکامل زیستی و تکامل فرهنگی": {
+                    "id": "AwACAgQAAxkBAAPmancJD25bd833Pqtc46R9O1flP30AAtohAAKl_KhT-RwbFqiUVbw9BA",
+                    "type": "voice"
+                },
+                "بقای فرهنگ ها و ادیان به چه سبک است؟": {
+                    "id": "AwACAgQAAxkBAAPnancJP6XJINn8YjQ6pQZKxosjHcoAAtshAAKl_KhTQu8RHwNk3zM9BA",
+                    "type": "voice"
+                },
+                "بقای یک فرهنگ به سنین کودکی انسان گره خورده است": {
+                    "id": "AwACAgQAAxkBAAPoancJees0zhDwiQlXzVblluPNwjoAAtwhAAKl_KhTBkgU7N6lRGA9BA",
+                    "type": "voice"
+                },
+                "منطقی بودن دلیلی بر بقای یک فرهنگ و ایده نیست!": {
+                    "id": "AwACAgQAAxkBAAPpancJqTP3oT0pHX0zwgHBku8_baAAAuEhAAKl_KhTWg0_1r5FbeI9BA",
+                    "type": "voice"
+                }
+            }
+        },
+
+        "کسب و کار": {
+            "voices": {
+                "دلیل موفقیت استارتاپ های بزرگ چه بوده؟": {
+                    "id": "AwACAgQAAxkBAANyanb3YBx5NJ5myzAV7-WeecjW2BsAAs8dAAIE9kFQrxvl3gABZYcHPQQ",
+                    "type": "voice"
+                },
+                "رمز ارز ها هنوزم فرصت هستند؟": {
+                    "id": "AwACAgQAAxkBAANzanb3cYaeXQZHzZmcF7BCYlXPFaMAAtMdAAIE9kFQESBqh18UOZk9BA",
+                    "type": "voice"
+                },
+                "هر بحران فرصتی را در خود جای دارد": {
+                    "id": "AwACAgQAAxkBAAN0anb3e9IuOCkqD8weO2GFzRTr1aMAAtQdAAIE9kFQhn9qAf0M4nU9BA",
+                    "type": "voice"
+                },
+                "چاره بی انگیزه بودن چیست؟": {
+                    "id": "AwACAgQAAxkBAAN1anb3j85ck7XRAVaiI2NF4RWQFrIAAvUgAALkbllQYTLW2cIC5xg9BA",
+                    "type": "voice"
+                },
+                "تاثیرگذاری چگونه اتفاق می افتد؟": {
+                    "id": "AwACAgQAAxkBAAN2anb3nZeckqNKrnml-fSMYJhwTYMAAgkfAAIjjHlQipiXMjsGvkk9BA",
+                    "type": "voice"
+                },
+                "لیاقت شخصی و انواع دیدگاه به موقعیت اجتماعی و مالی": {
+                    "id": "AwACAgQAAxkBAAN3anb3sLxxhRQvEAvNET2I1YsmzzsAAi4dAAIdnuhQ2rSd_YIvqAk9BA",
+                    "type": "voice"
+                },
+                "در آینده چه حوزه هایی با وجود هوش مصنوعی مورد اهمیت تره؟": {
+                    "id": "AwACAgQAAxkBAAN4anb3u4TorqLishtj5IZb41DhhagAAr0oAAIrUglRlrYRh2eVZFM9BA",
+                    "type": "voice"
+                },
+                "رویکرد درست ارتباط با افراد بالاتر یا پایین تر از خود": {
+                    "id": "AwACAgQAAxkBAAN5anb4qUGHrBLtERs3-7SmZURCX40AApEeAAJtnShRlxz4HwaS17E9BA",
+                    "type": "voice"
+                },
+                "احساس خوشبختی از کجا میاد؟": {
+                    "id": "AwACAgQAAxkBAAN6anb4tqRVPTKVjFAWm_LDIn45ZBoAAoUeAAJtnTBRsCSa6xGyzvA9BA",
+                    "type": "voice"
+                },
+                "مهاجرت کنیم یا نه؟": {
+                    "id": "AwACAgQAAxkBAAN7anb4yWvNkD0nSsNDwgUJfmMXi_AAAqMbAAKqPWhRPHNtyp2Sy4Q9BA",
+                    "type": "voice"
+                },
+                "AGI و ASI و آینده هوش مصنوعی": {
+                    "id": "AwACAgQAAxkBAAPiancIFtGD71V268Afco5m6iKyIqoAAowdAAKAXMhRT41FNMB_0XY9BA",
+                    "type": "voice"
+                },
+                "موفقیت ارگانیک و غیر ارگانیک": {
+                    "id": "AwACAgQAAxkBAAPkancIepFREfn85RA72cl4NDJuaOQAAt0dAALCXwFSwZ2m9Hxw9A09BA",
+                    "type": "voice"
+                },
+                "نگاهی به تحصیلات و دانشگاه": {
+                    "id": "AwACAgQAAxkBAAPlancIsSe2eF6HbcdNVW-KfX5_L0MAApgeAALh-DlSnYeVg2AuHLs9BA",
+                    "type": "voice"
+                }
+            }
+        }
+    },    "English": {
+        "Philosophy & Politics": {
+            "voices": {
+                "Khamenei or Pahlavi?": {
+                    "id": "CQACAgQAAxkBAAPqancKSlFJqYX1zv6JAAGyPpPRuvRmAAInHwACYQpQUXPK-m3c2e_5PQQ",
+                    "type": "audio"
+                },
+                "Darwin’s Theory of Evolution": {
+                    "id": "CQACAgQAAxkBAAPrancKSiKgdgxf8njVYN7jQ7MXl6sAAs0eAAKYOVlRKr6rGrISP_U9BA",
+                    "type": "audio"
+                },
+                "Is the Theory of Evolution Absolute Truth?": {
+                    "id": "CQACAgQAAxkBAAPzancLgk5LLcpFjEj4yjw7JH9PHUkAAn8lAAJv-lhRlw9Bx_kqeSQ9BA",
+                    "type": "audio"
+                },
+                "We're ALL Dictators!": {
+                    "id": "CQACAgQAAxkBAAP0ancLgpnYbhhf4w7Q_hN0GUzf1hoAAmklAAJv-mBRJAxK7TRj7j09BA",
+                    "type": "audio"
+                },
+                "I'm young. What's the best thing I can do?": {
+                    "id": "CQACAgQAAxkBAAP1ancLgopaW5LZlf1xtLg_VgutzQIAAlkeAALpwnBRNk9nKZKYPlc9BA",
+                    "type": "audio"
+                },
+                "Why Do Wars Really Happen?": {
+                    "id": "CQACAgQAAxkBAAP2ancLgpeN2CLBlfxFiBgLEV0jb3YAApEeAALpwnBR5katmPfcTyo9BA",
+                    "type": "audio"
+                },
+                "An Evolutionary Perspective on Religion and Religions": {
+                    "id": "CQACAgQAAxkBAAP3ancLgp-WX27RlDMh9IUWtcDddzUAAo4dAAKTUIhRSis-eTkc33c9BA",
+                    "type": "audio"
+                },
+                "Politics Isn't Dirty; It's the Basis of All Human Relationships.": {
+                    "id": "CQACAgQAAxkBAAP4ancLgphktY0f4w3uxehy3i6aqIEAAqodAAKTUIhR3ikNqy27eQs9BA",
+                    "type": "audio"
+                },
+                "Exploring the Philosophy of God's Existence and Evolution Together": {
+                    "id": "CQACAgQAAxkBAAP5ancLgj736xWreEYVxMzSXpIEaFgAAgYeAAKTUIhRa8p_dDkzBgE9BA",
+                    "type": "audio"
+                },
+                "The Iran–U.S. Agreement!": {
+                    "id": "CQACAgQAAxkBAAP6ancLgudo1G6xhwS5Z06GFSyFvV0AAiUeAAKTUIhRLgmt18RXKkE9BA",
+                    "type": "audio"
+                }
+            }
+        },
+
+        "Business": {
+            "voices": {
+                "A Look at the Startup World and the Illusion of Success": {
+                    "id": "CQACAgQAAxkBAAP7ancLgnRox3s_HtgID5Ep-jHKUl4AAv4dAAJWiZFRA2KSW8Vd8ns9BA",
+                    "type": "audio"
+                },
+                "Is crypto still an opportunity?": {
+                    "id": "CQACAgQAAxkBAAP8ancLgnRWYFyesXofHXap8yBVqhwAAjUiAALNnplRmD-pauU5ZTQ9BA",
+                    "type": "audio"
+                },
+                "What perspective should people have in times of crisis?": {
+                    "id": "CQACAgQAAxkBAAP9ancLgmqttc0_1_1kq-CzzwZJe6wAAnMiAALNnplR9DdkQMqzlX49BA",
+                    "type": "audio"
+                },
+                "What is the solution to lack of motivation and lack of change?": {
+                    "id": "CQACAgQAAxkBAAP-ancLggyang3euOOXvvSxogwR_6wAAqsiAALNnplRkG5SUsUE-rg9BA",
+                    "type": "audio"
+                },
+                "How can one become an influential person? How is power created?": {
+                    "id": "CQACAgQAAxkBAAP_ancLgpekz1GeMTcUZAABzrkWMRMrAALqHAACY_KZUQhNhAXSFBHVPQQ",
+                    "type": "audio"
+                },
+                "What is personal merit? Does luck play a role in success?": {
+                    "id": "CQACAgQAAxkBAAIBAAFqdwuCXxyWF3Fvbk5gP0KMJzdaqwACthsAAsXCqFGEB5i7Hiq9aD0E",
+                    "type": "audio"
+                },
+                "What will AI and robotics mean for the future?": {
+                    "id": "CQACAgQAAxkBAAIBAWp3C4IjRNaXOKHF40HOGgEoQLRJAAIMGgACK2rJUbzvlQV4_yV1PQQ",
+                    "type": "audio"
+                },
+                "How should I interact with people of higher status or experience?": {
+                    "id": "CQACAgQAAxkBAAIBAmp3C4Ky4dSPn4KzI1aYozRXtni9AAKcIwACibq5UWvRG55yVvwoPQQ",
+                    "type": "audio"
+                },
+                "Where do the definition and feeling of happiness come from?": {
+                    "id": "CQACAgQAAxkBAAIBA2p3C4KIxdEDDiSxAhu5EhoyfeU5AAKlIwACibq5UfXoCgfpzoyWPQQ",
+                    "type": "audio"
+                },
+                "Is migration a window to happiness?": {
+                    "id": "CQACAgQAAxkBAAIBBGp3C4KWn-Diksd3BtVLXGu4B6ixAAJqHgACcDbZUW62rYyLk9hlPQQ",
+                    "type": "audio"
+                },
+                "ASI & AGI!": {
+                    "id": "CQACAgQAAxkBAAIBBWp3C4K6py9bZAgdJeuFrtxQBfxnAAKiHwACwXJQUhgVvK36qrFSPQQ",
+                    "type": "audio"
+                }
+            }
+        }
+    }
+}
