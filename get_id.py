@@ -1,9 +1,5 @@
 from telegram.ext import Application, MessageHandler, filters
 
-import os
-
-TOKEN = os.getenv("TOKEN")
-
 
 async def get_id(update, context):
 
