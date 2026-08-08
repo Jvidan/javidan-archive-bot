@@ -12,7 +12,10 @@ from telegram.ext import (
 
 import os
 
-TOKEN = os.getenv("TOKEN")
+TOKEN = os.environ.get("TOKEN")
+
+if not TOKEN:
+    raise Exception("TOKEN IS MISSING")
 
 
 with open("voices.json", "r", encoding="utf-8") as file:
