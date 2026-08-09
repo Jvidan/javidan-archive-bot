@@ -103,14 +103,11 @@ Top Users:
 
     for i, (uid, data) in enumerate(top_users[:5], 1):
         message += (
-            f"{i}. ID: {uid}
-"
-            f"Requests: {data.get('requests', 0)}
-"
-            f"Last seen: {data.get('last_seen', '-')}
-
-"
+            f"{i}. ID: {uid}\n"
+            f"Requests: {data.get('requests', 0)}\n"
+            f"Last seen: {data.get('last_seen', '-')}\n\n"
         )
+
 
     await update.message.reply_text(message)
 
