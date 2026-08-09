@@ -1,5 +1,6 @@
 import json
 import os
+from datetime import datetime
 
 from telegram import Update, KeyboardButton, ReplyKeyboardMarkup
 from telegram.ext import (
@@ -31,6 +32,87 @@ def update_stats(title):
 
     with open("stats.json", "w", encoding="utf-8") as file:
         json.dump(stats, file, ensure_ascii=False, indent=4)
+
+
+def update_user(user):
+    try:
+        with open("users.json", "r", encoding="utf-8") as file:
+            users = json.load(file)
+    except:
+        users = {}
+
+    user_id = str(user.id)
+
+    if user_id not in users:
+        users[user_id] = {
+            "requests": 0,
+            "last_seen": ""
+        }
+
+    users[user_id]["requests"] += 1
+    users[user_id]["last_seen"] = datetime.now().strftime("%Y-%m-%d %H:%M")
+
+    with open("users.json", "w", encoding="utf-8") as file:
+        json.dump(users, file, ensure_ascii=False, indent=4)
+
+
+async def users_command(update: Update, context: ContextTypes.DEFAULT_TYPE):
+
+    if update.effective_user.id != ADMIN_ID:
+        await update.message.reply_text(
+            "❌ You don't have permission to use this command."
+        )
+        return
+
+    try:
+        with open("users.json", "r", encoding="utf-8") as file:
+            users = json.load(file)
+    except:
+        users = {}
+
+    if not users:
+        await update.message.reply_text(
+            "👥 هنوز کاربری ثبت نشده."
+        )
+        return
+
+    today = datetime.now().strftime("%Y-%m-%d")
+    active_today = 0
+
+    for user in users.values():
+        if user.get("last_seen", "").startswith(today):
+            active_today += 1
+
+    top_users = sorted(
+        users.items(),
+        key=lambda x: x[1].get("requests", 0),
+        reverse=True
+    )
+
+    message = f"""👥 Javidan Archive Users
+
+Total Users:
+{len(users)}
+
+Active Today:
+{active_today}
+
+Top Users:
+
+"""
+
+    for i, (uid, data) in enumerate(top_users[:5], 1):
+        message += (
+            f"{i}. ID: {uid}
+"
+            f"Requests: {data.get('requests', 0)}
+"
+            f"Last seen: {data.get('last_seen', '-')}
+
+"
+        )
+
+    await update.message.reply_text(message)
 
 
 async def stats_command(update: Update, context: ContextTypes.DEFAULT_TYPE):
@@ -242,6 +324,7 @@ async def handle_message(update: Update, context: ContextTypes.DEFAULT_TYPE):
         file_data = voices[language][category]["voices"][text]
 
         update_stats(text)
+        update_user(update.effective_user)
 
         caption = f"""🎙 {text}
 
@@ -286,6 +369,7 @@ app.add_handler(CommandHandler("start", start))
 app.add_handler(CommandHandler("help", help_command))
 app.add_handler(CommandHandler("about", about_command))
 app.add_handler(CommandHandler("stats", stats_command))
+app.add_handler(CommandHandler("users", users_command))
 
 app.add_handler(
     MessageHandler(filters.TEXT & ~filters.COMMAND, handle_message)
