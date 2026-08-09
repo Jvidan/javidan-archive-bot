@@ -12,10 +12,58 @@ from telegram.ext import (
 
 TOKEN = os.getenv("TOKEN")
 
+# Telegram user ID of the admin allowed to use admin commands
+ADMIN_ID = 388368437  # Replace with your Telegram user ID
+
 with open("voices.json", "r", encoding="utf-8") as file:
     voices = json.load(file)
 
 VOICE_PER_PAGE = 5
+
+def update_stats(title):
+    try:
+        with open("stats.json", "r", encoding="utf-8") as file:
+            stats = json.load(file)
+    except:
+        stats = {}
+
+    stats[title] = stats.get(title, 0) + 1
+
+    with open("stats.json", "w", encoding="utf-8") as file:
+        json.dump(stats, file, ensure_ascii=False, indent=4)
+
+
+async def stats_command(update: Update, context: ContextTypes.DEFAULT_TYPE):
+
+    if update.effective_user.id != ADMIN_ID:
+        await update.message.reply_text(
+            "❌ You don't have permission to use this command."
+        )
+        return
+
+    try:
+        with open("stats.json", "r", encoding="utf-8") as file:
+            stats = json.load(file)
+    except:
+        stats = {}
+
+    if not stats:
+        await update.message.reply_text("📊 هنوز آماری ثبت نشده.")
+        return
+
+    sorted_stats = sorted(
+        stats.items(),
+        key=lambda x: x[1],
+        reverse=True
+    )
+
+    message = "📊 Javidan Archive Stats\n\n"
+
+    for i, (title, count) in enumerate(sorted_stats[:10], 1):
+        message += f"{i}. {title}\n▶️ {count} requests\n\n"
+
+    await update.message.reply_text(message)
+
 
 
 def get_text(language, key):
@@ -193,6 +241,8 @@ async def handle_message(update: Update, context: ContextTypes.DEFAULT_TYPE):
     if category and text in voices[language][category]["voices"]:
         file_data = voices[language][category]["voices"][text]
 
+        update_stats(text)
+
         caption = f"""🎙 {text}
 
 📂 {category}"""
@@ -235,6 +285,7 @@ app = Application.builder().token(TOKEN).build()
 app.add_handler(CommandHandler("start", start))
 app.add_handler(CommandHandler("help", help_command))
 app.add_handler(CommandHandler("about", about_command))
+app.add_handler(CommandHandler("stats", stats_command))
 
 app.add_handler(
     MessageHandler(filters.TEXT & ~filters.COMMAND, handle_message)
